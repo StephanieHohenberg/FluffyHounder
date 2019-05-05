@@ -1,7 +1,7 @@
 import {Component, OnDestroy, OnInit} from "@angular/core";
 import {circleMarker, LatLng, MapOptions, tileLayer} from "leaflet";
 import {PetData} from "../../data/pet.data";
-import {PetMarker, UserPosition} from "../../data/marker.data";
+import {DOG_ICON_URL, PetMarker, UserPosition} from "../../data/marker.data";
 import {UserData} from "../../data/user.data";
 import {LampData} from "../../data/lamp.data";
 import {Subscription} from "rxjs/index";
@@ -18,7 +18,7 @@ import {PetRegistrationDialogComponent} from "../pet-registration-dialog/pet-reg
 })
 export class PetTrackingMapComponent implements OnInit, OnDestroy {
 
-  public LOGO_URL = './../../assets/logo.jpg';
+  public LOGO_URL = DOG_ICON_URL;
   public isLoading: boolean = true;
   public zoomLatLng: LatLng;
   public mapOptions: MapOptions = {};

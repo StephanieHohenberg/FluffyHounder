@@ -24,7 +24,7 @@ export class PetOverviewComponent {
 
   public zoomToPet(event: MouseEvent, pet: PetMarker): void {
     let target = event.target || event.srcElement || event.currentTarget;
-    let idAttr = target.attributes.id;
+    let idAttr = target.attributes.id || undefined;
     if (idAttr == "on" || idAttr == "off") {
       this.switchMissingStatusOfPet(pet);
     } else {
