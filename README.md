@@ -6,6 +6,8 @@ Challenged by Nokia, one of the sponsors, my team and I thought about how can we
 The smart light poles are tracking the pets, who are equipped with small, passive, long-range RFID chips. The tracked information is sent to the database, which is accessed by the app Fluffy Founder. Pet owners can track their pets and alert them missing. The app is visualizing the information by a map and helps to find lost pets quicker and easier.
 Fluffy Hounder could be expanded to rescue abounded dogs and to take care street dogs, when every dog gets a transplanted microchip with its id tag. 
 
+Have a look at the [whole project](https://github.com/ioton-2019)
+
 ![registration dialog](https://raw.githubusercontent.com/StephanieHohenberg/FluffyHounder/master/src/assets/screenshots/2%20registration.PNG)
 ![pet overview bottom sheet](https://github.com/StephanieHohenberg/FluffyHounder/blob/master/src/assets/screenshots/8%20dashboard%20with%20missing%20dog%20tooltip.PNG)
 ![dashboard](https://github.com/StephanieHohenberg/FluffyHounder/blob/master/src/assets/screenshots/6%20petoverview%20missing%20dog.PNG)
